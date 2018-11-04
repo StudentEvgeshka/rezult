@@ -1,26 +1,22 @@
+/*=================Основные настройки сайта======================*/
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', Helvetica, Arial, sans-serif;
-
+    font-family: 'Roboto', sans-serif;
 }
-
 body {
     background: url(../img/f1.jpg);
 }
-
 .container {
-    max-width: 1200px;
-
+    max-width: 1500px;
 }
-
-
 .fon {
     background: url(../img/f2.png);
     padding-top: 1em;
     border-left: 3px #6b6e7e solid;
     border-right: 3px #6b6e7e solid;
 }
+/*=====================Лозунг школы======================*/
 .lozung_school{
     background-color: #6b6e7e;
     padding: 10px;
@@ -30,13 +26,135 @@ body {
     text-align: center;
 }
 
-
-.list-group-item {
-    padding:0;
-     margin-bottom: 0.3em;
-     
+/*=================главное меню====================*/
+.nav-item a{
+    background-color: #ffffff;
+    color:#6b6e7e !important;
+    padding-top:1em;
+}
+.nav-item a:hover{
+    background-color: #6b6e7e;
+    color: #ffffff !important;
+    padding-top:1em;
 }
 
+.dropdown-menu{
+    background-color: #6b6e7e;
+    margin: 0em;
+    padding: 0;
+    border: inherit !important;
+    border-radius: 0;
+}
+.dropdown-menu li a{
+    display: inline-block;
+    width:200px;
+    height:100%;
+    padding: 0.3em 0 0.3em 0.8em; 
+    margin-left:-15px;
+    background-color:blue;
+    text-decoration: none;
+    color: #6b6e7e;
+}
+.social{
+    background-color: #6b6e7e;
+
+}
+.social a{
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out; 
+
+}
+.social a:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+.nav-link {
+    font-weight: bold;
+    color: #6b6e7e !important;
+}
+
+.img-fluid {
+    margin: 1em 0em;
+}
+.navbar {
+    padding: 0em;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom:  3px #6b6e7e solid;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
+.collapse {
+    border-top: 3px #6b6e7e solid;
+    border-bottom: 3px #6b6e7e solid;
+    margin-right: -15px;   
+}
+
+.collapse a {
+    font-size: 1em;
+}
+.navbar-brand h3 {
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 0.2em;
+}
+
+.navbar-brand h3 span.SH {
+    color: #6b6e7e;
+}
+
+.navbar-brand h3 span.V {
+    color: #6b6e7e;
+}
+.logotip {
+    text-align: center;
+    padding: 0 auto;
+    background-color: #fff;
+    border-radius: 2em 2em 0 0;
+}
+.sim {
+    margin: 0 auto;
+}
+/*=======Переключения между большим и маленьким меню==========*/
+@media screen and (min-width: 0px) and (max-width: 549px) {
+    .big_menu {
+        display: none;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 5000px) {
+    .big_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 549px) {
+    .small_menu {
+        display: block;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 5000px) {
+    .small_menu {
+        display: none;
+    }
+}
+
+/*===================Боковое меню========================*/
+.lozung_news {
+    text-align: center;
+    color: #e7ebff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    background-color: #6b6e7e;
+    margin-right: -15px;
+}
+.list-group-item {
+    padding:0;
+    margin-bottom: 0.3em;
+}
 .list-group-item a {
     display: inline-block;
     width:100%;
@@ -56,150 +174,13 @@ body {
     
     font-size: 1.4em
 }
-
-/* главное меню */
-.nav-item{
-    width:130px;
-}
-.nav-item a{
-    background-color: #ffffff;
-    color:#6b6e7e !important;
-    padding-top:1em;
-}
-.nav-item a:hover{
-    background-color: #6b6e7e;
-    color: #ffffff !important;
-    padding-top:1em;
-}
-
-.dropdown-menu{
-    /* background-color: inherit !important; */
-    background-color: #6b6e7e;
-    margin: 0em;
-    padding: 0;
-    border: inherit !important;
-    border-radius: 0;
-
-
-}
-.dropdown-menu li a{
-    display: inline-block;
-    width:200px;
-    height:100%;
-    padding: 0.3em 0 0.3em 0.8em; 
-    margin-left:-15px;
-    background-color:blue;
-    text-decoration: none;
-    color: #6b6e7e;
-}
-
-.social{
-    background-color: #6b6e7e;
-
-}
-.social a{
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    -webkit-transition: all 0.2s ease-out; 
-
-}
-.social a:hover{
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
-}
-
-
-
-
-
-.nav-link {
-    font-weight: bold;
-    color: #6b6e7e !important;
-}
-
-.img-fluid {
-    margin: 1em 0em;
-}
-
-.navbar {
-    padding: 0em;
-    margin-left: -15px;
-    margin-right: -15px;
-    border-bottom:  3px #6b6e7e solid;
-
-}
-
-
-.navbar-brand a {
-    text-decoration: none;
-}
-
-.collapse {
-    border-top: 3px #6b6e7e solid;
-    border-bottom: 3px #6b6e7e solid;
-    margin-right: -15px;   
-}
-
-.collapse a {
-    font-size: 1em;
-    
-}
-
-
-
-.navbar-brand h3 {
-    font-weight: bold;
-    font-style: italic;
-    padding-top: 0.2em;
-}
-
-.navbar-brand h3 span.SH {
-    color: #3d3de2;
-}
-
-.navbar-brand h3 span.V {
-    color: #e89e00;
-}
-
-.logotip {
-    text-align: center;
-    padding: 0 auto;
-    background-color: #fff;
-    border-radius: 2em 2em 0 0;
-
-}
-
-.sim {
-    margin: 0 auto;
-}
-
-@media screen and (min-width: 0px) and (max-width: 549px) {
-    .big_menu {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 550px) and (max-width: 5000px) {
-    .big_menu {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 0px) and (max-width: 549px) {
-    .small_menu {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 550px) and (max-width: 5000px) {
-    .small_menu {
-        display: none;
-    }
-}
 .osn_menu{
     margin-bottom: 2em;
 }
+.osn{
+    margin-left: 15px;
+}
+/*==============Строка новостей===============*/
 .zagolovok_news{
     color:#ffffff;
     font-size: 1.2em;
@@ -254,6 +235,7 @@ body {
     box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
     
 }
+/*==============Карусель творчести учеников===============*/
 .zagolovok_karusel1{
     color:#ffffff;
     font-size: 1.2em;
@@ -274,6 +256,36 @@ body {
 .big-karusel1 a:hover{
     color: #3a4166;
 }
+.element {
+    padding: 0 0.5em;
+    border: none;
+}
+.element h5 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.element p {
+    font-size: 1.2em;
+}
+.element a {
+    text-decoration: none;
+    color: #6b6e7e;
+}
+.element a:hover {
+    color: #e7ebff;
+}
+.creativ{
+    background-color:#ffffff; 
+    margin-bottom: 2em;
+    border-top: 4px #6b6e7e solid;
+    border-bottom: 4px #6b6e7e solid;
+    -webkit-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
+    -moz-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
+    box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
+}
+
+/*==============Карусель конкурсов учеников===============*/
 .zagolovok_karusel2{
     color:#ffffff;
     font-size: 1.2em;
@@ -294,7 +306,17 @@ body {
 .big-karusel2 a:hover{
     color: #3a4166;
 }
-
+.element2 img {
+    height: 10em;
+}
+/*===========Кнопки управления каруселями================*/
+#js-prev img,
+#js-next img,
+#k-prev img,
+#k-next img {
+    width: 80px;
+}
+/*=================Видео блок рекламы школы===============*/
 .blok_video{
     background-color: #6b6e7e;
     margin-left: -15px;
@@ -305,26 +327,7 @@ body {
 .video-block{
     border: 0.2em #e7ebff solid;
 }
-.osn{
-    margin-left: 15px;
-}
-.card{   background-color: none;}
-
-
-
-
-.creativ{
-    background-color:#ffffff; 
-    margin-bottom: 2em;
-    border-top: 4px #6b6e7e solid;
-    border-bottom: 4px #6b6e7e solid;
-    -webkit-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    -moz-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);}
-
-.karta {
-        background-color: #e7ebff;
-}
+/*=================Блок дополнительных программ, конкурсов и секций*/
 .program{
     margin-bottom: 2em;
 }
@@ -339,106 +342,8 @@ body {
 .program-block p{
     font-size: 1.2em;
     color: #6b6e7e;
-    
 }
-
-
-
-.zagolovok {
-    padding: 0, 5em auto;
-}
-
-.lozung_news {
-    text-align: center;
-    color: #e7ebff;
-    font-weight: bold;
-    font-size: 1.2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.3em;
-    background-color: #6b6e7e;
-    margin-right: -15px;
-}
-.lozung {
-    text-align: center;
-    color: #6b6e7e;
-    font-weight: bold;
-    font-size: 1.2em;
-    padding-top: 1.5em;
-    padding-bottom: 0.5em;
-}
-
-
-/*новостное меню */
-
-
-
-
-
-
-
-
-/* пробный контекст */
-.str {
-    padding: 1em;
-    text-align: justify;
-
-}
-
-
-/* пробный контекст  finish*/
-/* карусель творчести учеников */
-/* Основной блок */
-.element {
-    padding: 0 0.5em;
-    border: none;
-}
-
-}
-
-.element h5 {
-    text-align: center;
-    font-size: 1.8em;
-}
-
-.element p {
-    font-size: 1.2em;
-    color: #6b6e7e;
-}
-
-.big_news a {
-    text-decoration: none;
-}
-
-.big_news a:hover {}
-
-.element a {
-    text-decoration: none;
-    color: #6b6e7e;
-}
-
-.element a:hover {
-    color: #6b6e7e;
-
-}
-
-#js-prev img,
-#js-next img,
-#k-prev img,
-#k-next img {
-    width: 80px;
-}
-
-/*karucel end*/
-
-/* каруселька конкурсы */
-.element2 img {
-    height: 10em;
-
-}
-
-/* финиш конкурсам */
-
-/* карта в подвале */
+/*=============Карта в подвале============*/
 .grafik-bg {
 color: #6b6e7e;
     background-color: #e7ebff;
@@ -447,27 +352,15 @@ color: #6b6e7e;
     height: 350px;
     position: absolute;
 }
-
-.map {
-    margin-bottom: -8px;
-    margin-top: 2em;
-
-}
-
-.navigate-link {
-    display: none;
-}
-
 .text-map {
-    
     margin-bottom: 3px;
-    
     font-weight: bold;
     font-size: 1em;
 }
-
 .copi-r {
     color: #e7ebff;
     background-color: #6b6e7e;
 }
-
+.karta {
+        background-color: #e7ebff;
+}
