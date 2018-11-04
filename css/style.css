@@ -321,7 +321,22 @@ body {
 .karta {
         background-color: #e7ebff;
 }
-
+.program{
+    margin-bottom: 2em;
+}
+.program-block{
+    text-align: center;
+}
+.program-block h5{
+    text-align: center;
+    color:#3a4166;
+    font-size: 1.6em;
+}
+.program-block p{
+    font-size: 1.2em;
+    color: #6b6e7e;
+    
+}
 
 
 
@@ -377,11 +392,13 @@ body {
 }
 
 .element h5 {
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 1.8em;
 }
 
 .element p {
-    font-size: 1em;
+    font-size: 1.2em;
+    color: #6b6e7e;
 }
 
 .big_news a {
@@ -392,11 +409,11 @@ body {
 
 .element a {
     text-decoration: none;
-    color: #000;
+    color: #6b6e7e;
 }
 
 .element a:hover {
-    color: #e7ebff;
+    color: #6b6e7e;
 
 }
 
