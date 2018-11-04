@@ -17,14 +17,87 @@ body {
 .fon {
     background: url(../img/f2.png);
     padding-top: 1em;
-    border-left: 3px #292c3c solid;
-    border-right: 3px #292c3c solid;
+    border-left: 3px #6b6e7e solid;
+    border-right: 3px #6b6e7e solid;
+}
+.lozung_school{
+    background-color: #6b6e7e;
+    padding: 10px;
+    margin: -15px -15px 0px -15px;
+    color: #e7ebff;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.list-group-item {
+    padding:0;
+     margin-bottom: 0.3em;
+     
+}
+
+.list-group-item a {
+    display: inline-block;
+    width:100%;
+    height:100%;
+    padding: 0.3em 0 0.3em 0.8em; 
+    margin: 0;
+    background-color:#ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #6b6e7e;
+}
+.list-group-item a:hover {
+    background-color:#6b6e7e;
+    color:#fff ;
+}
+.list-group-item i {
+    
+    font-size: 1.4em
 }
 
 /* главное меню */
 
+.dropdown-menu{
+    background-color: red;
+    padding: 0;
+
+
+}
+.dropdown-menu a{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    padding: 0.3em 0 0.3em 0em; 
+    margin: 0;
+    background-color:blue;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #6b6e7e;
+}
+
+.social{
+    background-color: #6b6e7e;
+
+}
+.social a{
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out; 
+
+}
+.social a:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+
+
+
 .nav-link {
-    font-weight: bold
+    font-weight: bold;
+    color: #6b6e7e !important;
 }
 
 .img-fluid {
@@ -33,47 +106,29 @@ body {
 
 .navbar {
     padding: 0em;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom:  3px #6b6e7e solid;
+
 }
+
 
 .navbar-brand a {
     text-decoration: none;
 }
 
 .collapse {
-    border-top: 3px #3d3de2 solid;
-    border-bottom: 3px #e89e00 solid;
+    border-top: 3px #6b6e7e solid;
+    border-bottom: 3px #6b6e7e solid;
+    margin-right: -15px;   
 }
 
 .collapse a {
     font-size: 1em;
+    
 }
 
-.mega-dropdown {
-    position: static !important;
 
-}
-
-.mega-dropdown-menu {
-    padding: 20px 15px 15px;
-    text-align: center;
-    width: 98%;
-    margin: 0em 1% 0 1%;
-    box-shadow: none;
-    border-radius: 0em;
-    border: none;
-}
-
-.uvelich ul li a {
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-}
-
-.uvelich ul li a:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-}
 
 .navbar-brand h3 {
     font-weight: bold;
@@ -125,101 +180,19 @@ body {
     }
 }
 
-.school1,
-.school2,
-.zmist,
-.kontakt {
-    background-color: #9999ff;
-    color: #fff;
+.blok_video{
+    background-color: #6b6e7e;
+    margin-left: -15px;
+    margin-top: 1.5em;
+    padding: 10px 10px 10px 15px;
 }
-
-.school1 img {
-    margin-left: 0;
-    width: 100%;
-    border: 2px #fff solid;
+.video-block{
+    border: 0.2em #e7ebff solid;
 }
-
-.school2 img {
-    margin: 0.2em auto;
-    width: 70%;
-    border: 2px #fff solid;
+.osn{
+    margin-left: 15px;
 }
-
-.school1 h5,
-.school2 h5,
-.zmist h5,
-,
-.kontakt h5 {
-    margin-top: 0.5em;
-    color: #fff;
-    font-size: 1.4em;
-}
-
-.school1 p,
-.school2 p {
-    font-size: 1em;
-    color: #fff;
-}
-
-.zmist p,
-.kontakt p {
-    text-align: justify;
-    font-size: 1em;
-    color: #fff;
-}
-
-.detaly,
-.detaly2 {
-    background: #e0e0fb;
-    padding: 0;
-}
-
-.detaly h5,
-.detaly2 h5 {
-    font-size: 1.8em;
-    margin-top: 1em;
-    color: #9999ff;
-}
-
-.detaly ul li,
-.detaly2 ul li {
-    list-style: none;
-    font-size: 1.2em;
-    padding: 0.5em 0;
-
-}
-
-.detaly2 ul li,
-.zmist ul li {
-    text-align: left;
-    list-style: none;
-    margin-left: 2em;
-
-}
-
-.detaly2 p {
-    margin: 0 auto;
-}
-
-.detaly ul li a,
-.detaly2 ul li a,
-.zmist ul li a {
-    text-decoration: none;
-
-}
-
-.detaly ul li a:hover,
-.detaly2 ul li a:hover,
-.zmist ul li a:hover {
-    color: #3d3de2;
-}
-
-/* end
-/* end  */
-/* основное содержание */
-.row {
-    margin-top: 0.5em;
-}
+.card{   background-color: none;}
 
 .video,
 .news,
@@ -233,7 +206,7 @@ body {
 
 .karta {
     padding: 2em 0 0 0;
-    background-color: #ccc;
+    background-color: #e7ebff;
 }
 
 .video,
@@ -250,14 +223,25 @@ body {
     padding: 0, 5em auto;
 }
 
+.lozung_news {
+    text-align: center;
+    color: #e7ebff;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+    background-color: #6b6e7e;
+    margin-right: -15px;
+}
 .lozung {
     text-align: center;
-    color: #3d3de2;
+    color: #6b6e7e;
     font-weight: bold;
     font-size: 1.2em;
     padding-top: 1.5em;
     padding-bottom: 0.5em;
 }
+
 
 /*новостное меню */
 .news img {
@@ -280,28 +264,11 @@ body {
     margin: 0;
 }
 
-.list-group-item:hover {
-    background-color: #e2e2e2;
-}
 
-.list-group-item {
-    display: inline-block;
-    padding: 0.2em;
-    margin-bottom: 0.2em;
-    background-color: #eeeeef;
-}
 
-.list-group-item a {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    font-size: 1.2em;
-}
-.list-group-item i {
-    padding-right: 1em;
-    padding-left: 0.2em;
-}
+
+
+
 
 /* пробный контекст */
 .str {
@@ -341,7 +308,7 @@ body {
 }
 
 .element a:hover {
-    color: #ccc;
+    color: #e7ebff;
 
 }
 
@@ -364,7 +331,7 @@ body {
 
 /* карта в подвале */
 .grafik-bg {
-    background-color: #ccc;
+    background-color: #e7ebff;
     opacity: 0.92;
     left: 0;
     height: 350px;
@@ -389,7 +356,7 @@ body {
 }
 
 .copi-r {
-    background-color: #292c3c;
+    background-color: #6b6e7e;
 }
 
 /* =================== */
