@@ -196,6 +196,100 @@ body {
         display: none;
     }
 }
+.osn_menu{
+    margin-bottom: 2em;
+}
+.zagolovok_news{
+    color:#ffffff;
+    font-size: 1.2em;
+    border-bottom: 0.1em #ffffff solid;
+    }
+.zagolovok_news span{
+    padding-right: 0.5em;
+    border-right: 0.2em #e7ebff solid;
+}
+.zagolovok_news a{
+    padding-left: 0.5em;
+    color: #e7ebff;
+    text-decoration: none;
+}
+.zagolovok_news a:hover{
+    color: #3a4166;
+}
+.foto_news img{
+    width:200px;
+    height:200px;
+}
+.text-news h5{
+    text-align: center;
+    color:#3a4166;
+    font-size: 1.6em;
+}
+.text-news p{
+    font-size: 1.2em;
+    text-align: justify;
+    color: #6b6e7e;
+    text-indent: 0.5em;
+}
+.text-news{
+    text-align: right;
+}
+.novosti{
+    background-color: #6b6e7e;
+    padding: 0.2em;
+    margin-bottom:2em;
+}
+.block_news{
+    background-color: #ffffff;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    border-left:0.2em #6b6e7e solid; 
+    border-right: 0.2em #6b6e7e solid; 
+    -webkit-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
+    -moz-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
+    box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
+    
+}
+.zagolovok_karusel1{
+    color:#ffffff;
+    font-size: 1.2em;
+    border-bottom: 0.1em #ffffff solid;
+    margin-bottom: 0.2em;
+    }
+.karusel1{
+    background-color: #6b6e7e;
+    padding: 0.2em;
+    margin-bottom:2em;
+}
+.big-karusel1 a{
+    padding-left: 0.5em;
+    color: #e7ebff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.big-karusel1 a:hover{
+    color: #3a4166;
+}
+.zagolovok_karusel2{
+    color:#ffffff;
+    font-size: 1.2em;
+    border-bottom: 0.1em #ffffff solid;
+    margin-bottom: 1em;
+    }
+.karusel2{
+    background-color: #6b6e7e;
+    padding: 0.2em;
+    margin-bottom:0em;
+}
+.big-karusel2 a{
+    padding-left: 0.5em;
+    color: #e7ebff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.big-karusel2 a:hover{
+    color: #3a4166;
+}
 
 .blok_video{
     background-color: #6b6e7e;
@@ -213,15 +307,6 @@ body {
 .card{   background-color: none;}
 
 
-.novosti{
-    background-color: #fff;
-    border:10px #6b6e7e solid;
-    height:300px;
-    -webkit-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    -moz-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    margin-bottom:2em;
-}
 
 
 .creativ{
@@ -234,8 +319,7 @@ body {
     box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);}
 
 .karta {
-    padding: 2em 0 0 0;
-    background-color: #e7ebff;
+        background-color: #e7ebff;
 }
 
 
@@ -363,16 +447,3 @@ body {
     background-color: #6b6e7e;
 }
 
-/* =================== */
-.blok-skrepka {
-    -webkit-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    -moz-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
-    background: url(../img/top2.png) repeat-x;
-    background-color: #FFFFFF;
-    margin: 1em auto
-}
-
-.news-block {
-    overflow-y: scroll;
-}
