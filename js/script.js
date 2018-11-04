@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
     //
     // Auto heihgt========================
     // 
@@ -8,7 +8,7 @@ $(document).ready(function() {
     $( window ).resize(function() {
         var videoBlockHeight = $('.video-block').height(); 
         $('.news-block').css('height', videoBlockHeight+'px');
-    });
+    });*/
 
 
     //
