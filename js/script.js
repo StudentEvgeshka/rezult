@@ -2,13 +2,13 @@ $(document).ready(function() {
     //
     // Auto heihgt========================
     // 
-    var videoBlockHeight = $('.video-block').height(); 
+    /*var videoBlockHeight = $('.video-block').height(); 
     $('.news-block').css('height', videoBlockHeight+'px');
     // on resize
     $( window ).resize(function() {
         var videoBlockHeight = $('.video-block').height(); 
         $('.news-block').css('height', videoBlockHeight+'px');
-    });
+    });*/
 
 
     //
