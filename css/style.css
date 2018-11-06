@@ -70,6 +70,12 @@ body {
     -moz-transform: scale(1.5);
     -o-transform: scale(1.5);
 }
+.small_menu a{
+    background-color: #ffffff;    
+}
+.small_menu a:hover{
+    background-color: #ffffff;    
+}
 .nav-link {
     font-weight: bold;
     color: #6b6e7e !important;
@@ -123,11 +129,13 @@ body {
     .big_menu {
         display: none;
     }
+
 }
 @media screen and (min-width: 550px) and (max-width: 6000px) {
     .big_menu {
         display: block;
     }
+    
 }
 @media screen and (min-width: 0px) and (max-width: 549px) {
     .small_menu {
