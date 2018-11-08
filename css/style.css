@@ -1,4 +1,5 @@
 /*=================Основные настройки сайта======================*/
+/* #6b6e7e - старый фон */
 * {
     margin: 0;
     padding: 0;
@@ -13,12 +14,12 @@ body {
 .fon {
     background: url(../img/f2.png);
     padding-top: 1em;
-    border-left: 3px #6b6e7e solid;
-    border-right: 3px #6b6e7e solid;
+    border-left: 3px #61779c solid;
+    border-right: 3px #61779c solid;
 }
 /*=====================Лозунг школы======================*/
 .lozung_school{
-    background-color: #6b6e7e;
+    background-color: #61779c;
     padding: 10px;
     margin: -15px -15px 0px -15px;
     color: #ffffff;
@@ -32,20 +33,20 @@ body {
 /*=================главное меню====================*/
 .nav-item a{
     background-color: #ffffff;
-    color:#6b6e7e !important;
+    color:#61779c !important;
     padding-top:0.4em;
     padding-bottom:0.4em;
     font-size: 1.3em !important;
     font-weight: normal;
 }
 .nav-item a:hover{
-    background-color: #6b6e7e;
+    background-color: #61779c;
     color: #ffffff !important;
    
 }
 
 .dropdown-menu{
-    background-color: #6b6e7e;
+    background-color: #61779c;
     margin: 0em;
     padding-top: 0em;
     border: inherit !important;
@@ -54,7 +55,7 @@ body {
 .dropdown-menu a{padding-bottom: 0.5em;}
 
 .social{
-    background-color: #6b6e7e;
+    background-color: #61779c;
 
 }
 .social a{
@@ -71,11 +72,11 @@ body {
 }
 .small_menu a{
     background-color: #ffffff; 
-    color: #6b6e7e !important;
+    color: #61779c !important;
 }   
 .small_menu a:hover{
     background-color: #ffffff;    
-    color: #6b6e7e !important;
+    color: #61779c !important;
 }
 
 
@@ -87,14 +88,14 @@ body {
     padding: 0em;
     margin-left: -15px;
     margin-right: -15px;
-    border-bottom: 3px #6b6e7e solid;s
+    border-bottom: 3px #61779c solid;s
 }
 .navbar-brand a {
     text-decoration: none;
 }
 .osnovnoe {
-    border-top: 3px #6b6e7e solid;
-    border-bottom: 3px #6b6e7e solid;
+    border-top: 3px #61779c solid;
+    border-bottom: 3px #61779c solid;
     margin-right: -15px;   
    
 
@@ -116,11 +117,11 @@ body {
 }
 
 .small_menu h3 span.SH {
-    color: #6b6e7e;
+    color: #61779c;
 }
 
 .small_menu h3 span.V {
-    color: #6b6e7e;
+    color: #61779c;
 }
 .logotip {
     text-align: center;
@@ -162,7 +163,7 @@ body {
     font-size: 1.4em !important;
     padding-top: 0.5em;
     padding-bottom: 0.3em;
-    background-color: #6b6e7e;
+    background-color: #61779c;
     margin-right: -15px;
 }
 .list-group-item {
@@ -178,10 +179,10 @@ body {
     background-color:#ffffff;
     text-decoration: none;
     font-size: 1.2em !important;
-    color: #6b6e7e;
+    color: #61779c;
 }
 .list-group-item a:hover {
-    background-color:#6b6e7e;
+    background-color:#61779c;
     color:#fff ;
     font-weight: bold;
     font-family: sans-serif;
@@ -230,14 +231,14 @@ body {
 .text-news p{
     font-size: 1.2em;
     text-align: justify;
-    color: #6b6e7e;
+    color: #61779c;
     text-indent: 0.5em;
 }
 .text-news{
     text-align: right;
 }
 .novosti{
-    background-color: #6b6e7e;
+    background-color: #61779c;
     padding: 0.2em;
     margin-bottom:2em;
 }
@@ -245,8 +246,8 @@ body {
     background-color: #ffffff;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
-    border-left:0.2em #6b6e7e solid; 
-    border-right: 0.2em #6b6e7e solid; 
+    border-left:0.2em #61779c solid; 
+    border-right: 0.2em #61779c solid; 
     -webkit-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
     -moz-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
     box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
@@ -260,7 +261,7 @@ body {
     margin-bottom: 0.2em;
     }
 .karusel1{
-    background-color: #6b6e7e;
+    background-color: #61779c;
     padding: 0.2em;
     margin-bottom:2em;
 }
@@ -287,7 +288,7 @@ body {
 }
 .element a {
     text-decoration: none;
-    color: #6b6e7e;
+    color: #61779c;
 }
 .element a:hover {
     color: #e7ebff;
@@ -295,8 +296,8 @@ body {
 .creativ{
     background-color:#ffffff; 
     margin-bottom: 2em;
-    border-top: 4px #6b6e7e solid;
-    border-bottom: 4px #6b6e7e solid;
+    border-top: 4px #61779c solid;
+    border-bottom: 4px #61779c solid;
     -webkit-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
     -moz-box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
     box-shadow: 0px 3px 10px -3px rgba(74, 74, 74, 1);
@@ -310,9 +311,12 @@ body {
     margin-bottom: 1em;
     }
 .karusel2{
-    background-color: #6b6e7e;
+    background-color: #61779c;
     padding: 0.2em;
     margin-bottom:0em;
+}
+.owl-carousel2 img{
+    border: 0.5em #e7ebff solid;
 }
 .big-karusel2 a{
     padding-left: 0.5em;
@@ -335,7 +339,7 @@ body {
 }
 /*=================Видео блок рекламы школы===============*/
 .blok_video{
-    background-color: #6b6e7e;
+    background-color: #61779c;
     margin-left: -15px;
     margin-top: 1.5em;
     margin-bottom: 2em;
@@ -358,11 +362,11 @@ body {
 }
 .program-block p{
     font-size: 1.2em;
-    color: #6b6e7e;
+    color: #61779c;
 }
 /*=============Карта в подвале============*/
 .grafik-bg {
-color: #6b6e7e;
+color: #61779c;
     background-color: #e7ebff;
     opacity: 0.92;
     left: 0;
@@ -376,7 +380,7 @@ color: #6b6e7e;
 }
 .copi-r {
     color: #e7ebff;
-    background-color: #6b6e7e;
+    background-color: #61779c;
     font-size: 0.8em;
 }
 .karta {
